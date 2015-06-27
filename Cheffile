@@ -1,0 +1,16 @@
+site "http://community.opscode.com/api/v1"
+
+#cookbook "git", git: "https://github.com/jssjr/git"
+#cookbook "git", git: "https://github.com/opscode-cookbooks/git.git"
+cookbook "apt"
+cookbook "build-essential"
+cookbook "mysql", "5.5.3"
+cookbook "ruby_build"
+cookbook "nodejs"
+#cookbook "mongodb", "= 0.13.7"
+#cookbook "mongodb::10gen_repo", git: "https://github.com/edelight/chef-mongodb"
+#cookbook "mongodb-10gen", git: "https://github.com/higanworks-cookbooks/mongodb-10gen"
+cookbook "mongodb-10gen", "~> 0.4.1"
+cookbook "rbenv", git: "https://github.com/aminin/chef-rbenv"
+cookbook "vim"
+
